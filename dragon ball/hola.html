@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botones Alineados</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-around; /* Alinea los botones de manera equidistante */
+      align-items: center; /* Alinea los botones verticalmente al centro */
+      gap: 20px; /* Espacio entre los botones */
+      padding: 20px;
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+
+    .button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="content">
+    <p>Texto de ejemplo para mostrar cómo los botones se alinean de manera correcta.</p>
+    <div class="container">
+      <button class="button">Botón 1</button>
+      <button class="button">Botón 2</button>
+      <button class="button">Botón 3</button>
+    </div>
+  </div>
+</body>
+</html>
